@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+   
+  }
+  header{
+    background-color: grey;
+    height: 70px;
+  }
+  nav{
+    background-color: grey;
+    height: 100px;
+    display: flex;
+    justify-content: center
+  }
+  .table-responsive{
+    margin-left: 20px;
+  }
+  .producto{
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .cabecera{
+    margin-bottom: 20px;
+    font-size: x-large;
+    color: blue;
+  }
+  .total{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+  }
+  .finalizar{
+    margin: 30px 50px;
+    display: flex;
+    justify-content: end;
+  }
+  
+  @media screen and (max-width: 600px){
+    thead th .ocultar{
+      display: none;
+    } 
+  }

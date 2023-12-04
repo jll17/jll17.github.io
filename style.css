@@ -1,0 +1,85 @@
+ body {
+            background-color: rgb(165, 163, 163);
+            margin: 0;
+            padding: 0;
+        }
+header {
+    
+   
+    background-color: #333; /* Puedes cambiar el color de fondo según tus preferencias */
+        
+        
+    color: #ffffff; /* Puedes cambiar el color del texto según tus preferencias */
+        
+    
+    padding: 10px;
+        
+     
+    display: flex;
+        
+    align-items: center;
+    }
+
+
+.logo-container {
+    margin-right: 10px; /* Ajusta el espacio entre el logo y el texto según tus preferencias */
+}
+
+.logo-container img {
+    
+    
+max-height: 110px; /* Ajusta el tamaño máximo del logo según tus preferencias */
+}
+
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.member {
+    text-align: center;
+    margin: 15px;
+    /*background-image: url('./img/fondo\ lautaro.jpg');*/
+    background-size: cover;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;  
+    transition: 1ms;
+}
+.member img:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+.dev-team {
+    background-color: #333;
+    text-align: center;
+    margin: 20px;
+}
+footer {
+    
+    background-color:black;
+    background-color: black; 
+        
+    color: #fff;
+    
+        
+    
+        
+        padding: 10px;
+    padding: 10px;
+        
+        width: 100%;
+    width: 100%; /
+        
+    
+}
+
+

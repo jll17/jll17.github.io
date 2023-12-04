@@ -1,0 +1,32 @@
+#formulario {
+    background-color: rgba(222, 211, 211, 0.6); /* Ajusta el valor alpha (0.8 en este ejemplo) para la transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px lightgray;
+    color: white;
+    
+}
+
+body{
+    text-decoration: none;
+    font: color=white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #8d9091, #0b090c);
+  }
+
+#ingresar { 
+
+    
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 10px
+    ;
+}
+a {
+    color: white/* tu color deseado, por ejemplo, negro o cualquier otro */;
+    text-decoration: none; /* Esto elimina el subrayado predeterminado en los enlaces */
+  }

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+}
+header{
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+
+.categorias .list-group-item {
+       background-color: lightgrey;
+}
+/* @media screen (min-width 400px){
+    #carouselExampleIndicators
+} */
+.seccion1{
+background-color: lightgrey;
+height: 100px;
+
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+display: flex;
+align-items: center;
+
+/* justify-content: space-between; */
+}
+.seccion1{
+    margin-bottom: 20px;
+}
+.seccion2{
+    margin-bottom: 20px;
+}
+.seccion3{
+    margin-bottom: 20px;
+}
+.seccion4{
+    margin-bottom: 20px;
+}
+.seccion5{
+    margin-bottom: 20px;
+}
+img{
+  padding: 10px;
+  height: 40%;
+}
+.card-body{
+    position: relative;
+}
+h4{
+    position: absolute;
+    left: 10%;
+    bottom: 20px;
+}
+.btn{
+    position: absolute;
+    right: 10%;
+    bottom: 20px;
+}
